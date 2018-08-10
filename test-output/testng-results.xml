@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GalaxyUI Automation" duration-ms="28625" started-at="2018-08-09T11:59:19Z" finished-at="2018-08-09T11:59:48Z">
+    <groups>
+    </groups>
+    <test name="Galaxy EC Test Cases" duration-ms="28625" started-at="2018-08-09T11:59:19Z" finished-at="2018-08-09T11:59:48Z">
+      <class name="com.galaxy.ec.testdata.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="setUp" is-config="true" duration-ms="9266" started-at="2018-08-09T11:59:19Z" finished-at="2018-08-09T11:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitletest()[pri:1, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="loginPageTitletest" duration-ms="13" started-at="2018-08-09T11:59:28Z" finished-at="2018-08-09T11:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="629" started-at="2018-08-09T11:59:29Z" finished-at="2018-08-09T11:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="setUp" is-config="true" duration-ms="5761" started-at="2018-08-09T11:59:35Z" finished-at="2018-08-09T11:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogoTest()[pri:2, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="LogoTest" duration-ms="39" started-at="2018-08-09T11:59:41Z" finished-at="2018-08-09T11:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="629" started-at="2018-08-09T11:59:41Z" finished-at="2018-08-09T11:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="setUp" is-config="true" duration-ms="4896" started-at="2018-08-09T11:59:41Z" finished-at="2018-08-09T11:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="loginTest" duration-ms="1056" started-at="2018-08-09T11:59:46Z" finished-at="2018-08-09T11:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.galaxy.ec.testdata.LoginPageTest@464bee09]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-08-09T11:59:47Z" finished-at="2018-08-09T11:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.galaxy.ec.testdata.LoginPageTest -->
+      <class name="com.galaxy.ec.testdata.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.galaxy.ec.testdata.HomePageTest@f6c48ac]" name="SetUp" is-config="true" duration-ms="5656" started-at="2018-08-09T11:59:29Z" finished-at="2018-08-09T11:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="verifyHomePageTitleTest()[pri:1, instance:com.galaxy.ec.testdata.HomePageTest@f6c48ac]" name="verifyHomePageTitleTest" duration-ms="14" started-at="2018-08-09T11:59:35Z" finished-at="2018-08-09T11:59:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[HomePage Title not matched expected [AgentDashboard] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: HomePage Title not matched expected [AgentDashboard] but found [Login]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.galaxy.ec.testdata.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.galaxy.ec.testdata.HomePageTest@f6c48ac]" name="teardown" is-config="true" duration-ms="1" started-at="2018-08-09T11:59:35Z" finished-at="2018-08-09T11:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.galaxy.ec.testdata.HomePageTest -->
+    </test> <!-- Galaxy EC Test Cases -->
+  </suite> <!-- GalaxyUI Automation -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GalaxyUI Automation]">
+  <listeners>
+    <listener class-name="com.galaxy.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Galaxy EC Test Cases(failed)">
+    <classes>
+      <class name="com.galaxy.ec.testdata.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.galaxy.ec.testdata.HomePageTest -->
+    </classes>
+  </test> <!-- Galaxy EC Test Cases(failed) -->
+</suite> <!-- Failed suite [GalaxyUI Automation] -->
